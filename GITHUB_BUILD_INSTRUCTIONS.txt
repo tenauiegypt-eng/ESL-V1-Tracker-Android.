@@ -1,0 +1,12 @@
+ESL Android V2 — GitHub Actions APK build
+
+1. Open your existing Android GitHub repository on the PC.
+2. Upload/replace the project files with the contents of THIS ZIP (not the ZIP itself).
+3. IMPORTANT: Ensure build.gradle, settings.gradle, app/, and .github/workflows/build-apk.yml are at the repository ROOT.
+4. Commit changes to main (or master).
+5. Open Actions > Build Android APK > Run workflow (or wait for the push build).
+6. Open successful run > Artifacts > ESL-Android-V2-debug-APK.
+7. Download artifact ZIP, extract app-debug.apk and transfer to phone.
+
+This is source, not a compiled APK. Build not verified on Android device.
+If an existing workflow is already in the repository, you may use it instead.
